@@ -96,6 +96,7 @@ set nocompatible
 set noerrorbells
 set novisualbell
 set t_vb=
+set belloff=all
 
 " Appearance of the editor:
 syntax on
