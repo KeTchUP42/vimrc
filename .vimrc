@@ -127,6 +127,9 @@ set spelllang=en,ru
 set splitright
 set splitbelow
 
+" Vim terminal settings:
+set shell=fish
+
 " ---VIM-SHORTCUTS---
 
 " Fast 'jj' -> ESC
