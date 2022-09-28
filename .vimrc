@@ -32,9 +32,11 @@ Plug 'vim-airline/vim-airline-themes'
 " ---TOOLS---
 Plug 'skanehira/translate.vim'
 Plug 'vim-scripts/DoxygenToolkit.vim'
+Plug 'airblade/vim-gitgutter'
 Plug 'skywind3000/asyncrun.vim'
 
 " ---OTHER---
+Plug 'philrunninger/nerdtree-visual-selection'
 Plug 'mhinz/vim-startify'
 Plug 'powerman/vim-plugin-ruscmd'
 
