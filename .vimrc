@@ -1,5 +1,4 @@
 " ---HELP---
-
 " How to install:
 " https://itisgood.ru/2021/01/19/kak-ustanovit-poslednjuju-versiju-redaktora-vim-v-sistemah-linu/
 
@@ -44,7 +43,7 @@ call plug#end()
 
 " ---VIM-SETTINGS---
 
-" Vim BASIC settings:
+" BASIC settings:
 set number
 set modifiable
 
@@ -177,10 +176,10 @@ map <silent> <C-j> :call WinMove('j')<CR>
 map <silent> <C-k> :call WinMove('k')<CR>
 map <silent> <C-l> :call WinMove('l')<CR>
 
-map <silent> <Left>  :call WinCreate('h')<CR>
-map <silent> <Down>  :call WinCreate('j')<CR>
-map <silent> <Up>    :call WinCreate('k')<CR>
-map <silent> <Right> :call WinCreate('l')<CR>
+map <silent> <C-Left>  :call WinCreate('h')<CR>
+map <silent> <C-Down>  :call WinCreate('j')<CR>
+map <silent> <C-Up>    :call WinCreate('k')<CR>
+map <silent> <C-Right> :call WinCreate('l')<CR>
 
 function! WinMove(key)
     exec "wincmd ".a:key
