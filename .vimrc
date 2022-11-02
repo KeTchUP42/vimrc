@@ -38,6 +38,7 @@ Plug 'skywind3000/asyncrun.vim'
 Plug 'philrunninger/nerdtree-visual-selection'
 Plug 'mhinz/vim-startify'
 Plug 'powerman/vim-plugin-ruscmd'
+Plug 'konfekt/vim-select-replace'
 
 call plug#end()
 
