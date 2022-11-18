@@ -157,7 +157,6 @@ noremap <silent> <F3> :Autoformat<CR>
 
 " Spell checking shortcuts:
 nnoremap <silent> <F4> :set spell!<CR>
-inoremap <silent> <F4> <C-O> :set spell!<CR>
 
 " Ctags program shortcuts:
 nnoremap <silent> <F5> :AsyncRun ctags -R<CR>
