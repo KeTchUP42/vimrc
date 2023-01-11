@@ -157,7 +157,6 @@ noremap <silent> <F3> :Autoformat<CR>
 
 " Spell checking shortcuts:
 nnoremap <silent> <F4> :set spell!<CR>
-inoremap <silent> <F4> <C-O> :set spell!<CR>
 
 " Ctags program shortcuts:
 nnoremap <silent> <F5> :AsyncRun ctags -R<CR>
@@ -208,7 +207,9 @@ let g:airline#extensions#tabline#left_alt_sep = ''
 let g:airline#extensions#xkblayout#enabled = 0
 let g:airline#extensions#keymap#enabled = 0
 
+let g:airline_section_c = '%t'
 let g:airline_section_z = "\ue0a1:%l/%L Col:%c"
+
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 let g:airline_linecolumn_prefix = '¶ '
