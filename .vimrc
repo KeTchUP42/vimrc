@@ -230,6 +230,13 @@ let g:translate_target = "ru"
 let g:translate_popup_window = 1 " If you want use popup window, set value 1.
 let g:translate_winsize = 10 " Set buffer window height size if you doesn't use popup window.
 
+" vim-autoformat plugin settings:
+let g:formatdef_my_cpp = '"astyle --mode=c --style=bsd -O -k1 -W1 -p -xg -c -H -Y -S -N -xG -xl".(&expandtab ? "s".shiftwidth() : "t")'
+let g:formatters_cpp = ['my_cpp']
+
+let g:formatdef_my_c = '"astyle --mode=c --style=bsd -p -xg -c -H -Y -S -k3".(&expandtab ? "s".shiftwidth() : "t")'
+let g:formatters_c = ['my_c']
+
 " DoxygenToolkit.vim plugin settings:
 let g:DoxygenToolkit_authorName = "Roman Bondarenko"
 
