@@ -12,6 +12,7 @@ Plug 'jlanzarotta/bufexplorer'
 
 " ---COMPLETION---
 Plug 'ycm-core/YouCompleteMe'
+Plug 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 Plug 'jiangmiao/auto-pairs'
 Plug 'chiel92/vim-autoformat'
 
@@ -108,7 +109,7 @@ set foldcolumn=0
 " This code fixes gruvbox theme spell-checking highlighting:
 let g:gruvbox_guisp_fallback = "bg"
 
-" Some cool colorschemes: gruvbox, 256_noir
+" Some cool colorschemes: gruvbox, 256_noir, lightcolors
 colorscheme gruvbox
 set background=dark
 
@@ -230,6 +231,11 @@ let g:translate_source = "en"
 let g:translate_target = "ru"
 let g:translate_popup_window = 1 " If you want use popup window, set value 1.
 let g:translate_winsize = 10 " Set buffer window height size if you doesn't use popup window.
+
+" YCM plugin settings:
+let g:ycm_complete_in_comments = 1
+let g:ycm_collect_identifiers_from_tags_files = 1
+let g:ycm_filter_diagnostics = { "cpp": { "regex": [ "" ], } }
 
 " vim-autoformat plugin settings:
 let g:formatdef_my_cpp = '"astyle --mode=c --style=bsd -O -k1 -W1 -p -xg -c -H -Y -S -N -xG -xl".(&expandtab ? "s".shiftwidth() : "t")'
