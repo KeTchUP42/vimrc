@@ -235,7 +235,7 @@ let g:translate_winsize = 10 " Set buffer window height size if you doesn't use 
 " YCM plugin settings:
 let g:ycm_complete_in_comments = 1
 let g:ycm_collect_identifiers_from_tags_files = 1
-let g:ycm_filter_diagnostics = { "cpp": { "regex": [ "" ], } }
+" let g:ycm_filter_diagnostics = { "cpp": { "regex": [ "" ], } }
 
 " vim-autoformat plugin settings:
 let g:formatdef_my_cpp = '"astyle --mode=c --style=bsd -O -k1 -W1 -p -xg -c -H -Y -S -N -xG -xl".(&expandtab ? "s".shiftwidth() : "t")'
