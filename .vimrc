@@ -129,6 +129,7 @@ set spelllang=en,ru
 " How vim splits window:
 set splitright
 set splitbelow
+set completeopt-=preview
 
 " Vim terminal settings:
 set shell=fish
