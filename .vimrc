@@ -31,6 +31,7 @@ Plug 'vim-airline/vim-airline-themes'
 
 " ---TOOLS---
 Plug 'skanehira/translate.vim'
+Plug 'emezeske/manpageview'
 Plug 'vim-scripts/DoxygenToolkit.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'skywind3000/asyncrun.vim'
