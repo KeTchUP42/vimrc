@@ -133,7 +133,7 @@ set splitbelow
 set completeopt-=preview
 
 " Vim terminal settings:
-set shell=fish
+set shell=bash
 
 " ---VIM-SHORTCUTS---
 
