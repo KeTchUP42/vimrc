@@ -19,6 +19,7 @@ Plug 'chiel92/vim-autoformat'
 " ---SEARCH---
 Plug 'kien/ctrlp.vim'
 Plug 'nelstrom/vim-visual-star-search'
+Plug 'yegappan/grep'
 " Plug 'pechorin/any-jump.vim'
 " Plug 'craigemery/vim-autotag'
 
